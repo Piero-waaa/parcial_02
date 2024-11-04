@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    z-index: 999;
+}
+
+nav ul {
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: #000205;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 155px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s; 
+}
+
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+  display: flex;
+  justify-content:center;
+  margin-top: 15px;
+
+}
+
+.button {
+  font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    min-width: 110px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
+    transition: all .25s ease-in-out;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 15px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal
+}
+
+.button:hover {
+  background-color: #000;
+  color: #FFFFFF;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 17px;
+  margin: 0 30px;
+}
+
+
+.parrafo {
+    color: #000;
+    font-size: .8rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+}
+
+.parrafo h5{
+    max-width: 40vw;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.principal {
+  background-image: url('../imagen/cafe-1869656_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.wawa {
+  background-image: url('../imagen/street-cafe-4472312_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+ font-size: 35px;
+}
+
+
+.botones_1 {
+  display: flex;
+  justify-content:center;
+  margin-top: 15px;
+
+}
+
+.buttones {
+  font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    min-width: 110px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
+    transition: all .25s ease-in-out;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 15px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal
+}
+
+.buttones:hover {
+  background-color: #82AC9F;
+  color: #FFFFFF;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 17px;
+  margin: 0 30px;
+}
+
+.contenidouno {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  color: #156064;
+  padding: 2px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+  margin-top: 200px;
+  margin-bottom: 15px;
+}
+
+.contenidouno h2{
+  margin-bottom: 15px;
+}
+
+.contenidouno p{
+  margin-bottom: 30px;
+}
+
+
+  .galeria {
+    background-color: #FFFFFF;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: #000205;
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .galeria p {
+    color: #000205;
+    text-align: center;
+    font-size: 14px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    border: 2px solid #04416a;
+    padding: 5px;
+    border-radius: 4px;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    transition: transform 0.3  
+  }
+  .columna img:hover {
+    transform:scale(1.1)
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    align-items: center;
+  }
+
+  
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #292E1E;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #9649CB;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal
+  }
+
+
+  .footer {
+    background-color: #000205;
+    color: #fff;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+    
+  .footer img{
+    width: 155px;
+    height: auto;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+  }

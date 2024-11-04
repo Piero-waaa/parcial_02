@@ -1,0 +1,205 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  z-index: 999;
+}
+
+nav ul {
+  font-family: "Nerko One", cursive;
+font-weight: 400;
+font-style: normal;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+  
+}
+
+nav li a{
+  color: #000205;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  text-decoration: underline;
+}
+
+
+.logo{
+  padding: 0 15px;
+}
+.logo img{
+  width: 155px;
+  height: auto;
+}
+
+.iconos {
+  display: flex;
+  
+}
+
+.iconos a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 18px;
+}
+.iconos a:hover {
+  transform: scale(1.2); 
+  transition: transform 0.3s; 
+}
+
+/*aqui comienza el menú*/
+
+.menu-cafeteria {
+  padding: 100px;
+}
+.menu-cafeteria h1{
+  padding: 30px;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.contenidotres {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.columna img {
+  max-width: 100%;
+    border: 5px dotted #A7C957;
+    padding: 5px;
+    border-radius: 4px;
+    width: 350px; 
+    height: 250px; 
+    object-fit: cover;
+    transition: transform 0.3 
+}
+
+.columna img:hover {
+  transform: scale(1.1); /* Agranda la imagen un 10% */
+}
+
+.columna p, .columna a {
+  margin: 10px 0;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.columna a {
+  color: #007bff;
+}
+
+.columna a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.botones {
+  display: flex;
+  justify-content:center;
+  margin-top: 15px;
+
+}
+
+.button {
+  font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    min-width: 110px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
+    transition: all .25s ease-in-out;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 15px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal
+}
+
+.button:hover {
+  background-color: #FCEADE;
+  color: #FFFFFF;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 17px;
+  margin: 0 30px;
+}
+
+
+
+/*aquie es el fotter*/
+
+.footer {
+  background-color: #000205;
+  color: #fff;
+  padding: 13px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px
+}
+
+.filas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+  
+.footer img{
+  width: 155px;
+  height: auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+  
